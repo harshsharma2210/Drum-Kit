@@ -2,7 +2,7 @@ const noofbut = document.querySelectorAll(".drum").length;
 document.addEventListener("keypress", handleKey);
 
 for (let i = 0; i < noofbut; i++) {
-  document.querySelectorAll(".drum")[i].addEventListener("click", handleClick(event));
+  document.querySelectorAll(".drum")[i].addEventListener("click", handleClick);
 }
 
 function handleClick() {
