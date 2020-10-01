@@ -18,19 +18,19 @@ function handleKey(event) {
 function sound(key) {
   let link2;
   switch (key) {
-    case "w":
+    case "a":
       link2 = "tom-1.mp3";
       break;
 
-    case "a":
+    case "s":
       link2 = "tom-2.mp3";
       break;
 
-    case "s":
+    case "d":
       link2 = "tom-3.mp3";
       break;
 
-    case "d":
+    case "f":
       link2 = "tom-4.mp3";
       break;
 
